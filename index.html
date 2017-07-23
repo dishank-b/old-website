@@ -1,16 +1,14 @@
 <!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>Dishank Bansal</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/slideshow.css" />
+		<link rel="shortcut icon" href="images/title_logo.ico" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -23,9 +21,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
-							<p>Hyperspace Engineer</p>
+							<span class="image avatar48 my_image"><img src="images/me1_100*100.jpg" alt=""/></span>
+							<h1 id="title">Dishank Bansal</h1>
+							<p>Tech Enthusiast</p>
 						</div>
 
 					<!-- Nav -->
@@ -45,8 +43,9 @@
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
+								<li><a href="#" id="#" class="#"><span class="icon fa-th">Tutorials</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -57,11 +56,9 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/dishank-b" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.facebook.com/I.M.Dishank" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="mailto:dishankbansal@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
@@ -76,31 +73,69 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<div class="slideshow-container">
+
+								<div class="mySlides fade">
+								  <!-- <div class="numbertext">1/3</div> -->
+								  <img src="images/project/img_1.jpg" style="height: 100%;">
+								  <div class="text">Caption Text</div>
+								</div>
+
+								<div class="mySlides fade">
+								  <!-- <div class="numbertext">2/3</div> -->
+								  <img src="./images/project/img_2.jpg" style="height: 100%;">
+								  <div class="text">Caption Two</div>
+								</div>
+
+								<div class="mySlides fade">
+								  <!-- <div class="numbertext">3/3</div> -->
+								  <img src="./images/project/img_3.jpg" style="height: 100%;">
+								  <div class="text">Caption Three</div>
+								</div>
+
+								</div>
+								<!-- <br> -->
+
+								<div style="text-align:center">
+								  <span class="dot"></span> 
+								  <span class="dot"></span> 
+								  <span class="dot"></span> 
+								</div>
 							</header>
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+							<footer class="box">
+								<a href="#portfolio" class="button scrolly">See My Projects</a>
+							</footer>
+
+							<footer class="box"> 	
+								<a href="https://drive.google.com/open?id=0B72KSdO97N47aGo0RHpMZkRBaXc" target="_blank" class="button scrolly">Résumé</a>
 							</footer>
 
 						</div>
 					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<p>I am an undergraduate student at Indian Institute of Technology Kharagpur, India and majoring in Manufacturing Science and Engineering. Being a roboticist and tech enthusiast, I like to learn about new technology stuff and apply it myself. Being part of a Autonomous Ground Vehicle Research Group, I have worked on Embedded System, Control Systems, Computer Vision and Deep Learning. Currently I have been working majorly in deep learning and its application in Self-Driving Cars. I also like to hypothesize about universe and its laws, mysteries, nature and love to talk about the same. </p>
+						</div>
+					</section>
+
 
 				<!-- Portfolio -->
 					<section id="portfolio" class="two">
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Projects</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>Below are descriptions of some of the projects I did at my college.</p>
 
 							<div class="row">
 								<div class="4u 12u$(mobile)">
@@ -150,51 +185,33 @@
 						</div>
 					</section>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
-
-						</div>
-					</section>
+				
 
 				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
+					<section id="contact" class="four" style="padding-bottom: 1em; padding-top: 1em;">
+						<div class="container" style="text-align: justify;">
+							<div class ="contact-div" style="display: inline-block; text-align: left; vertical-align: top;">
+								<h4>Contact Me</h4>
+								<hr>
+								<ul style="font-size: 0.6em;">
+									<li style="line-height: 1.2em;">E-222, Azad Hall of Residence<br>IIT Kharagpur, Kharagpur <br>West Bengal 721302, India</li>
+									<li>(+91)9800394333</li>
+									<li>dishankbansal09@gmail.com, dishank.bansal@iitkgp.ac.in</li>
+							</div>
+							<dir style="display: inline-block; vertical-align: top; margin-top: 0px;">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.7380157434345!2d87.29844422913817!3d22.317652639728728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDE5JzAzLjYiTiA4N8KwMTcnNTYuNCJF!5e0!3m2!1sen!2sin!4v1500789879521" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</dir>
+							<div class ="links-div" style="display: inline-block; vertical-align: top; padding-left: 2em;">
+								<h4>Quick Links</h4>
+								<hr>
+								<ul style="font-size: 0.6em; line-height: 150%">
+									<li><a href="#">Tutorials</a></li>
+									<li><a href="https://github.com/dishank-b"> My Github Repo</a></li>
+									<li><a href="http://agv-iit-kgp.github.io/">AGV Research Group</a></li>
+									<li><a href="http://iitkgp.ac.in/">IIT Kharagpur</a></li>
+								</ul>
+							</div>
 
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
 
 						</div>
 					</section>
@@ -206,7 +223,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Dishank Bansal. All rights reserved.</li>
 					</ul>
 
 			</div>
@@ -219,6 +236,27 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+			    var i;
+			    var slides = document.getElementsByClassName("mySlides");
+			    var dots = document.getElementsByClassName("dot");
+			    for (i = 0; i < slides.length; i++) {
+			       slides[i].style.display = "none";  
+			    }
+			    slideIndex++;
+			    if (slideIndex> slides.length) {slideIndex = 1}    
+			    for (i = 0; i < dots.length; i++) {
+			        dots[i].className = dots[i].className.replace(" active", "");
+			    }
+			    slides[slideIndex-1].style.display = "block";  
+			    dots[slideIndex-1].className += " active";
+			    setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+			</script>
 
 	</body>
 </html>
