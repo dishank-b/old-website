@@ -1711,14 +1711,15 @@
 		}
 
 		.image.avatar48 {
-			width: 55px;
-			height: 55px;
-			background: #f00;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			.image.avatar48 img {
-				width: 55px;
-				height: 55px;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 		.image.fit {
@@ -2041,7 +2042,7 @@
 
 	#logo {
 		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
+		margin: 1em 1em 1em 1em;
 		min-height: 48px;
 		cursor: default;
 	}
@@ -2052,6 +2053,7 @@
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+			text-align: center;
 		}
 
 		#logo p {
@@ -2061,12 +2063,14 @@
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
+			text-align: center;
 		}
 
 		#logo .image {
-			position: absolute;
-			left: 0;
-			top: 0;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 10px;
 		}
 
 	#nav ul {
@@ -2282,7 +2286,8 @@
 
 			#logo .image {
 				position: relative;
-				margin: 0 0 0.5em 0;
+				margin-right: auto;
+				margin-left: auto;
 			}
 
 			#nav ul li a {
@@ -2565,15 +2570,10 @@
 
 /* My classes*/
 
-/*.my_image:hover{
-margin-right: 10px;
-
 }
-*/
-.my_image:hover img {
-	width : 100px;
-	height: 100px;
 
+.header_slide{
+	height: 100%
 }
 
 .box{
@@ -2588,6 +2588,101 @@ margin-right: 10px;
 	height: 100%
 }
 
-.container header{
-	height: 80%
+.projects_column{
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+
+.pro_box{
+	display: table;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.pro_box img{
+	width: 70%;
+	display: table-cell;
+}
+
+.pro_box .image_container{
+	display: table-cell;
+	width: 70%;
+}
+
+
+.project_content{
+	width: 25%;
+	display: table-cell;
+}
+
+.project_content p{
+	font-size: 0.7em;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+/*.pro_box{
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 10px;
+	display: table-row;
+}
+
+.pro_box .image_container{
+	width: 70%;
+	display: table-cell;
+}
+
+.image_container img{
+	width: 100%;
+}
+
+.project_content{
+	width: 25%;
+	display: table
+}*/
+
+.resume-box{
+	padding: 0px 8px;
+	display: block;
+	font-size: 1.5em;
+	color: #2c12bd;
+	background-color: #3eda3e;
+	/*line-height: 0.95em;*/
+}
+
+.resume-box:hover {
+	background-color: #449d44;
+}
+
+.top-container{
+	height: 90%;
+}
+
+.tagline h4{
+	display: inline-block;
+	padding: 4px;
+	font-size: 0.9em;
+	line-height: 80%;
+	color: #31c754;
+}
+
+@media (max-width: 800px) {
+    .projects_column {
+        width: 80%;
+        float: none;
+    }
+
+    .project_column:last-child {
+    	margin-bottom: 0px;
+    }
+    .project_row{
+    	align-content: center;
+    	align-items: center;
+    }
+    .header_slide{
+	width: 100%
+	}
 }
