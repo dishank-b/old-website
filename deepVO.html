@@ -76,23 +76,19 @@
 					<section id="top" class="one dark cover", style="background-image: none; background-color: white;">
 						<div class="tagline" style="height: 20%">
 							<span style="color: black; font-size: 1.2em;">|</span>
-							<h4 style="background-color: #4e496a;">Bachelor's Thesis Project, IIT Kharagpur</h4>
+							<h4 style="background-color: #4e496a;">DeepVO: Visual Odometry using Monocular Images using CNNs</h4>
 							<span style="color: black; font-size: 1.2em;">|</span>
 						</div>
 						<div class="top-container">
 							<header style="height: 100%">
 								<div class="slideshow-container">
 									<div class="mySlides fade">
-									  <img src="images/project/btech_project/actor_critic.png" style="height: 100%;">
-									  <div class="text" style="color: #2EFF00;">Actor Critic Algorithm</div>
+									  <img src="images/project/deepVO/rotation.png" style="height: 100%;">
+									  <div class="text" style="color: #2EFF00;">Predicting translation and yaw between two camera frames</div>
 									</div>
 									<div class="mySlides fade">
-									  <img src="images/project/btech_project/network.png" style="height: 100%;">
-									  <div class="text" style="color: #2EFF00;">Implementation of Actor Critic Network</div>
-									</div>
-									<div class="mySlides fade">
-									  <img src="images/project/btech_project/simulator.png" style="height: 100%;">
-									  <div class="text" style="color: #2EFF00;">Training on TORCS</div>
+									  <img src="images/project/deepVO/net.png" style="height: 100%;">
+									  <div class="text" style="color: #2EFF00;">CNN architecture</div>
 									</div>
 								</div>
 								<!-- <br> -->
@@ -100,7 +96,6 @@
 								<div style="text-align:center">
 								  <span class="dot"></span> 
 								  <span class="dot"></span> 
-								  <span class="dot"></span>
 								</div>
 							</header>
 						</div>
@@ -114,7 +109,9 @@
 								<a href="https://github.com/dishank-b/DeepR-VO" style="color: red; text-align: center;" target="_blank">Here</a> is the link of github repository. 
 							</p>
 							<p style="margin-bottom: 1em; text-align: justify; color: black; font-family: Times New Roman; line-height: 1.2em">
-							
+								This project was one of the initial attempts to model visual odometry for monocular images using deep learning. The task was framed as regression problem for change in x, change in y and yaw between two frames of camera feed. Two siamese CNN with coupled weights were used
+								for two frames of images, which finally predicts the translation and rotation values. The RMSE value for the best model found out to be 0.2.
+
 							</p>
 							
 							</div>
